@@ -9,6 +9,7 @@ import EventDetails from './pages/EventDetails'
 import Careers from './pages/Careers'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import Nominate from './pages/Nominate'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -24,6 +25,7 @@ export default function App() {
     <Route path="/events/:slug" element={<EventDetails/>}/>
     <Route path="/careers" element={<Careers/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/nominate" element={<Nominate/>}/>
     <Route path="*" element={<NotFound/>}/>
   </Routes></main><Footer/></>
 }

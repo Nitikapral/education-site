@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#101827',
-        ivory: '#FFF9D9',
-        champagne: '#E7B928',
+        ink: '#191419',
+        ivory: '#FAF5EF',
+        champagne: '#C51F45',
         charcoal: '#202735',
         slatecopy: '#667085',
         line: '#E5E7EB'
